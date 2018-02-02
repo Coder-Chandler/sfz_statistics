@@ -21,9 +21,9 @@ def dataframe(province, filename):
 def savedata(filename, province):
     total = 0
     for j in province:
-        log("处理" + str(j) + "省数据")
+
         for i in filename:
-            log("处理" + str(i) + "万数据 ->", i)
+
             df = dataframe(j, filename[i])
             df.createOrReplaceTempView("people")
             for k in province_and_city:
@@ -33,18 +33,14 @@ def savedata(filename, province):
                         search = "%{}%".format(str(v))
                         sql = "select * from people where _c8 like '{}' and _c2<99999999999 ".format(search)
                         data = spark.sql(str(sql))
-                        log(str(i) + "有" + str(data.count()) + "条是{}市的数据 ->".format(str(v)), data.count())
+
                         count += data.count()
                         data.show(5)
-                        data.coalesce(1).write.format("csv").save(
-                            "/Users/chandler/Documents/Data/NumPhone/Province/{0}/city/{1}/{2}".format(j, str(v),
-                                                                                                       str(i)),
-                            mode="overwrite")
-                    total += count
-                    log("{}市共有数据数量 ->".format(province[j]), count)
-                    log("==============================={}执行完毕======================================\n\n".format(
-                        province[j]))
-        log("===================>总数据量 ->", total)
+                        # data.coalesce(1).write.format("csv").save(
+                        #     "/Users/chandler/Documents/Data/NumPhone/Province/{0}/city/{1}/{2}".format(j, str(v),
+                        #                                                                                str(i)),
+                        #     mode="overwrite"
+
 
 
 province = {"shandong": "山东", "jiangsu": "江苏", "anhui": "安徽", "zhejiang": "浙江", "hebei": "河北", "liaoning": "辽宁",

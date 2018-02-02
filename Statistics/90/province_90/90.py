@@ -1,6 +1,18 @@
 from pyspark.sql import SparkSession
 from utils import log
-from utils import province_and_city
+
+"""
+val Name = "_c0"
+    val CtfId = "_c4"
+    val Mobile = "_c19"
+    val Tel = "_c20"
+    val EMail = "_c22"
+    val Fax = "_c21"
+    val Gender = "_c5"
+    val Birthday = "_c6"
+    val Address = "_c7"
+    val Zip = "_c8"
+"""
 
 spark = SparkSession \
     .builder \
@@ -10,34 +22,35 @@ spark = SparkSession \
     .getOrCreate()
 
 
-def dataframe(name, filename):
-    path = "/Users/chandler/Documents/Data/NumPhone/Province/{0}/province/{1}/*.csv".format(name, filename)
+def dataframe(filename):
+    path = "/Users/chandler/Documents/Data/NumPhone/clean_sfz/" + str(filename) + "/" + str(filename) + ".csv"
     df = spark.read.format("csv").load(path)
     return df
 
 
 def savedata(filename, province):
+    total = 0
     for j in province:
+        count = 0
         log("处理" + str(province[j]) + "省数据")
         for i in filename:
-            log("\n")
-            log("处理{}万数据".format(i))
-            df = dataframe(j, i)
+            log("处理" + str(i) + "万数据 ->", i)
+            df = dataframe(filename[i])
             df.createOrReplaceTempView("people")
-            for k in province_and_city():
-                if province[j] in k:
-                    for v in province_and_city()[k]:
-                        count = 0
-                        search = "%{}%".format(str(v))
-                        sql = "select * from people where _c8 like '{}' and _c2<99999999999 ".format(search)
-                        data = spark.sql(str(sql))
-                        count += data.count()
-                        data.show(5)
-                        data.coalesce(1).write.format("csv").save(
-                            "/Users/chandler/Documents/Data/NumPhone/Province/{0}/city/{1}/{2}".format(j, str(v), i),
-                            mode="overwrite")
-                        log("{0}市执行完毕，{1}W有{2}条是{3}市的数据" .format(str(v), str(i), str(data.count()), str(v)))
-        log("==============================={}省执行完毕======================================\n\n".format(province[j]))
+            search = "%{}%".format(str(province[j]))
+            sql = "select * from people where _c8 like '{}' and _c7 > 19850101 and _c6 = 'F' and _c2<9999999999 and _c1>10000000000000".format(
+                search)
+            data = spark.sql(str(sql))
+            log(str(i) + "有" + str(data.count()) + "条是{}的数据 ->".format(province[j]), data.count())
+            count += data.count()
+            data.show(5)
+            data.coalesce(1).write.format("csv").save(
+                "/Users/chandler/Documents/Data/NumPhone/90/province_90/{}/".format(j) + str(i),
+                mode="overwrite")
+        total += count
+        log("{}共有数据数量 ->".format(province[j]), count)
+        log("==============================={}执行完毕======================================\n\n".format(province[j]))
+    log("===================>总数据量 ->", total)
 
 
 filename = {"1-200": "1-200", "200-400": "200-400", "400-600": "400-600",
