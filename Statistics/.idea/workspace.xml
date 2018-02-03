@@ -22,6 +22,7 @@
     <SUITE FILE_PATH="coverage/Statistics$province.coverage" NAME="province Coverage Results" MODIFIED="1517548728523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/province" />
     <SUITE FILE_PATH="coverage/Statistics$test.coverage" NAME="test Coverage Results" MODIFIED="1517547091967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/city" />
     <SUITE FILE_PATH="coverage/Statistics$AllData.coverage" NAME="AllData Coverage Results" MODIFIED="1517304899388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chongqing" />
+    <SUITE FILE_PATH="coverage/Statistics$split.coverage" NAME="split Coverage Results" MODIFIED="1517642748690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/Statistics$tianjin.coverage" NAME="tianjin Coverage Results" MODIFIED="1517304341640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tianjin" />
     <SUITE FILE_PATH="coverage/Statistics$liaoning.coverage" NAME="liaoning Coverage Results" MODIFIED="1517372382071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liaoning" />
   </component>
@@ -30,8 +31,8 @@
       <file leaf-file-name="province.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/province/province.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="27" column="95" lean-forward="false" selection-start-line="27" selection-start-column="89" selection-end-line="27" selection-end-column="95" />
+            <state relative-caret-position="207">
+              <caret line="34" column="33" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="34" selection-end-column="33" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
                 <marker date="1517548779106" expanded="true" signature="797:832" ph="select * fro... people" />
@@ -40,16 +41,6 @@
                 <marker date="1517548779106" expanded="true" signature="797:857" ph="select * fro... people" />
                 <marker date="1517548779106" expanded="true" signature="797:859" ph="select * fro... people" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/province/data.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -87,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="90.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="90.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/90/province_90/90.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
@@ -101,11 +92,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="split.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/split.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="603">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/data.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="all_90.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/90/all_90/all_90.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+              <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
                 <marker date="1517554422301" expanded="true" signature="842:904" ph="select _c0,_... " />
@@ -184,6 +197,7 @@
         <option value="$PROJECT_DIR$/90/data.txt" />
         <option value="$PROJECT_DIR$/90/province_90/90.py" />
         <option value="$PROJECT_DIR$/90/all_90/all_90.py" />
+        <option value="$PROJECT_DIR$/scripts/split.py" />
       </list>
     </option>
   </component>
@@ -248,6 +262,11 @@
               <item name="Statistics" type="462c0819:PsiDirectoryNode" />
               <item name="province" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Statistics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Statistics" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -277,7 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.90">
+  <component name="RunManager" selected="Python.split">
     <configuration name="90" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -314,24 +333,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="city" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/city" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Statistics" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/city/city.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="province" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -346,6 +347,24 @@
       <module name="Statistics" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/province/province.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="split" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Statistics" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/split.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -370,18 +389,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.province" />
-      <item index="1" class="java.lang.String" itemvalue="Python.city" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.90" />
-      <item index="4" class="java.lang.String" itemvalue="Python.all_90" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.90" />
+      <item index="3" class="java.lang.String" itemvalue="Python.all_90" />
+      <item index="4" class="java.lang.String" itemvalue="Python.split" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.90" />
-        <item index="1" class="java.lang.String" itemvalue="Python.all_90" />
-        <item index="2" class="java.lang.String" itemvalue="Python.province" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.city" />
+        <item index="0" class="java.lang.String" itemvalue="Python.split" />
+        <item index="1" class="java.lang.String" itemvalue="Python.90" />
+        <item index="2" class="java.lang.String" itemvalue="Python.all_90" />
+        <item index="3" class="java.lang.String" itemvalue="Python.province" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +425,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45140666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45140666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1416309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -604,21 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda/envs/xjmweb/lib/python3.6/site-packages/pyspark/sql/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10604">
-          <caret line="482" column="30" lean-forward="false" selection-start-line="482" selection-start-column="30" selection-end-line="482" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/province/data.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -673,21 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/province/province.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="27" column="95" lean-forward="false" selection-start-line="27" selection-start-column="89" selection-end-line="27" selection-end-column="95" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <marker date="1517548779106" expanded="true" signature="797:832" ph="select * fro... people" />
-            <marker date="1517548779106" expanded="true" signature="797:833" ph="select * fro... people" />
-            <marker date="1517548779106" expanded="true" signature="797:837" ph="select * fro... people" />
-            <marker date="1517548779106" expanded="true" signature="797:857" ph="select * fro... people" />
-            <marker date="1517548779106" expanded="true" signature="797:859" ph="select * fro... people" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/city/data.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -699,7 +688,7 @@
     <entry file="file://$PROJECT_DIR$/90/all_90/all_90.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
             <marker date="1517554422301" expanded="true" signature="842:904" ph="select _c0,_... " />
@@ -717,6 +706,55 @@
             <element signature="e#0#36#0" expanded="true" />
             <marker date="1517554380219" expanded="true" signature="1026:1047" ph="select * fro... people" />
             <marker date="1517554380219" expanded="true" signature="1026:1141" ph="select * fro... people" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/envs/xjmweb/lib/python3.6/site-packages/pyspark/sql/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/province/province.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="34" column="33" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+            <marker date="1517548779106" expanded="true" signature="797:832" ph="select * fro... people" />
+            <marker date="1517548779106" expanded="true" signature="797:833" ph="select * fro... people" />
+            <marker date="1517548779106" expanded="true" signature="797:837" ph="select * fro... people" />
+            <marker date="1517548779106" expanded="true" signature="797:857" ph="select * fro... people" />
+            <marker date="1517548779106" expanded="true" signature="797:859" ph="select * fro... people" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10604">
+          <caret line="482" column="30" lean-forward="false" selection-start-line="482" selection-start-column="30" selection-end-line="482" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
