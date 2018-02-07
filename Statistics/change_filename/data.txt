@@ -1,0 +1,18 @@
+2018-02-07 11:46:35 <class 'Exception'>
+2018-02-07 11:46:35 出错path -> /Users/chandler/Documents/Data/NumPhone/clean_sfz/800-1000/800-1000.csv
+2018-02-07 11:46:41 <class 'Exception'>
+2018-02-07 11:46:41 出错path -> /Users/chandler/Documents/Data/NumPhone/clean_sfz/1800-2000/1800-2000.csv
+2018-02-07 11:46:48 <class 'Exception'>
+2018-02-07 11:46:48 出错path -> /Users/chandler/Documents/Data/NumPhone/clean_sfz/1000-1200/1000-1200.csv
+2018-02-07 11:46:52 <class 'Exception'>
+2018-02-07 11:46:52 出错path -> /Users/chandler/Documents/Data/NumPhone/clean_sfz/1600-1800/1600-1800.csv
+2018-02-07 11:46:58 <class 'Exception'>
+2018-02-07 11:46:58 出错path -> /Users/chandler/Documents/Data/NumPhone/clean_sfz/600-800/600-800.csv
+2018-02-07 11:47:05 <class 'Exception'>
+2018-02-07 11:47:05 出错path -> /Users/chandler/Documents/Data/NumPhone/clean_sfz/400-600/400-600.csv
+2018-02-07 11:47:14 <class 'Exception'>
+2018-02-07 11:47:14 出错path -> /Users/chandler/Documents/Data/NumPhone/clean_sfz/1-200/1-200.csv
+2018-02-07 11:47:22 <class 'Exception'>
+2018-02-07 11:47:22 出错path -> /Users/chandler/Documents/Data/NumPhone/clean_sfz/1200-1400/1200-1400.csv
+2018-02-07 11:47:29 <class 'Exception'>
+2018-02-07 11:47:29 出错path -> /Users/chandler/Documents/Data/NumPhone/clean_sfz/200-400/200-400.csv

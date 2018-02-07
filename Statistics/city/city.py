@@ -1,6 +1,7 @@
 from pyspark.sql import SparkSession
 from utils import log
 from utils import province_and_city
+import os
 
 spark = SparkSession \
     .builder \
@@ -11,10 +12,14 @@ spark = SparkSession \
 
 
 def dataframe(name, filename):
-    path = "/Users/chandler/Documents/Data/NumPhone/Province/{0}/province/{1}/*.csv".format(name, filename)
-    df = spark.read.format("csv").load(path)
-    return df
-
+    path = "/Users/chandler/Documents/Data/NumPhone/ReYongProvince/{0}/province/{1}/".format(name, filename)
+    for i in os.listdir(path):
+        if i.startswith("_") or i.startswith("."):
+            continue
+        else:
+            path = path+str(i)
+            df = spark.read.format("csv").load(path)
+            return df
 
 def savedata(filename, province):
     for j in province:
@@ -34,7 +39,7 @@ def savedata(filename, province):
                         count += data.count()
                         data.show(5)
                         data.coalesce(1).write.format("csv").save(
-                            "/Users/chandler/Documents/Data/NumPhone/Province/{0}/city/{1}/{2}".format(j, str(v), i),
+                            "/Users/chandler/Documents/Data/NumPhone/RenYongProvince/{0}/city/{1}/{2}".format(j, str(v), i),
                             mode="overwrite")
                         log("{0}市执行完毕，{1}W有{2}条是{3}市的数据" .format(str(v), str(i), str(data.count()), str(v)))
         log("==============================={}省执行完毕======================================\n\n".format(province[j]))
