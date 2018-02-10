@@ -16,3 +16,15 @@
 2018-02-07 11:47:22 出错path -> /Users/chandler/Documents/Data/NumPhone/clean_sfz/1200-1400/1200-1400.csv
 2018-02-07 11:47:29 <class 'Exception'>
 2018-02-07 11:47:29 出错path -> /Users/chandler/Documents/Data/NumPhone/clean_sfz/200-400/200-400.csv
+2018-02-07 16:11:39 <class 'Exception'>
+2018-02-07 16:11:39 出错path -> /Users/chandler/Documents/Data/NumPhone/clean_sfz/1800-2000/1800-2000ap.csv
+2018-02-07 16:11:40 <class 'Exception'>
+2018-02-07 16:11:40 出错path -> /Users/chandler/Documents/Data/NumPhone/clean_sfz/1800-2000/1800-2000aq.csv
+2018-02-07 16:12:25 <class 'Exception'>
+2018-02-07 16:12:25 出错path -> /Users/chandler/Documents/Data/NumPhone/clean_sfz/1800-2000/1800-2000ao.csv
+2018-02-07 16:13:55 <class 'Exception'>
+2018-02-07 16:13:55 出错path -> /Users/chandler/Documents/Data/NumPhone/clean_sfz/1600-1800/1600-1800aa.csv
+2018-02-07 16:14:07 <class 'Exception'>
+2018-02-07 16:14:07 出错path -> /Users/chandler/Documents/Data/NumPhone/clean_sfz/1600-1800/1600-1800ae.csv
+2018-02-07 16:20:41 <class 'Exception'>
+2018-02-07 16:20:41 出错path -> /Users/chandler/Documents/Data/NumPhone/clean_sfz/200-400/200-400ac.csv
