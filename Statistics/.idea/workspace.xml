@@ -14,7 +14,7 @@
     <SUITE FILE_PATH="coverage/Statistics$all_90.coverage" NAME="all_90 Coverage Results" MODIFIED="1517555612144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/90/all_90" />
     <SUITE FILE_PATH="coverage/Statistics$change.coverage" NAME="change Coverage Results" MODIFIED="1517991009577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/change_filename" />
     <SUITE FILE_PATH="coverage/Statistics$AllData__3_.coverage" NAME="AllData (3) Coverage Results" MODIFIED="1517304001094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shanghai" />
-    <SUITE FILE_PATH="coverage/Statistics$90.coverage" NAME="90 Coverage Results" MODIFIED="1517556688905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/90" />
+    <SUITE FILE_PATH="coverage/Statistics$90.coverage" NAME="90 Coverage Results" MODIFIED="1518499328799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/90/province_90" />
     <SUITE FILE_PATH="coverage/Statistics$AllData__4_.coverage" NAME="AllData (4) Coverage Results" MODIFIED="1517304150036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/beijing" />
     <SUITE FILE_PATH="coverage/Statistics$jilin.coverage" NAME="jilin Coverage Results" MODIFIED="1517376035175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jilin" />
     <SUITE FILE_PATH="coverage/Statistics$AllData__1_.coverage" NAME="AllData (1) Coverage Results" MODIFIED="1517372194096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shandong" />
@@ -33,8 +33,8 @@
       <file leaf-file-name="province.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/province/province.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
                 <marker date="1517974000020" expanded="true" signature="797:832" ph="select * fro... people" />
@@ -47,30 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/province/data.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2458">
-              <caret line="1426" column="0" lean-forward="false" selection-start-line="1426" selection-start-column="0" selection-end-line="1426" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/city/data.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151536">
-              <caret line="6888" column="30" lean-forward="false" selection-start-line="6888" selection-start-column="30" selection-end-line="6888" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="split.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/split_1W/split.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
+            <state relative-caret-position="814">
               <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
@@ -82,8 +62,8 @@
       <file leaf-file-name="split_100w.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/split_big/split_100w.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="814">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -91,10 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="change.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="change.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/change_filename/change.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
+            <state relative-caret-position="336">
               <caret line="116" column="4" lean-forward="false" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
@@ -104,10 +84,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/change_filename/data.txt">
+      <file leaf-file-name="all_90.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/90/all_90/all_90.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="391">
+              <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+              <folding>
+                <marker date="1517554422301" expanded="true" signature="842:904" ph="select _c0,_... " />
+                <marker date="1517554422301" expanded="true" signature="842:907" ph="select * fro... people" />
+                <marker date="1517554422301" expanded="true" signature="842:992" ph="select _c0,_... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="90.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/90/province_90/90.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1144">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding>
+                <marker date="1518499305607" expanded="true" signature="1026:1047" ph="select * fro... people" />
+                <marker date="1518499305607" expanded="true" signature="1026:1099" ph="select * fro... people" />
+                <marker date="1518499305607" expanded="true" signature="1026:1100" ph="select * fro... people" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/90/province_90/data.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-396">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -115,17 +123,7 @@
         </entry>
       </file>
       <file leaf-file-name="data.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/split_big/data.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/split_1W/data.txt">
+        <entry file="file://$PROJECT_DIR$/90/all_90/data.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -174,7 +172,6 @@
         <option value="$PROJECT_DIR$/90/90.py" />
         <option value="$PROJECT_DIR$/90_province/province_90/90.py" />
         <option value="$PROJECT_DIR$/90/data.txt" />
-        <option value="$PROJECT_DIR$/90/province_90/90.py" />
         <option value="$PROJECT_DIR$/90/all_90/all_90.py" />
         <option value="$PROJECT_DIR$/scripts/split.py" />
         <option value="$PROJECT_DIR$/scripts/split_big/sciipt.py" />
@@ -186,6 +183,8 @@
         <option value="$PROJECT_DIR$/province/province.py" />
         <option value="$PROJECT_DIR$/change_filename/data.txt" />
         <option value="$PROJECT_DIR$/change_filename/change.py" />
+        <option value="$PROJECT_DIR$/90/province_90/90.py" />
+        <option value="$PROJECT_DIR$/90/province_90/data.txt" />
       </list>
     </option>
   </component>
@@ -196,7 +195,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
+    <option name="x" value="-1" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -216,6 +216,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,21 +244,6 @@
             <path>
               <item name="Statistics" type="b2602c69:ProjectViewProjectNode" />
               <item name="Statistics" type="462c0819:PsiDirectoryNode" />
-              <item name="change_filename" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Statistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Statistics" type="462c0819:PsiDirectoryNode" />
-              <item name="city" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Statistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Statistics" type="462c0819:PsiDirectoryNode" />
-              <item name="province" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Statistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Statistics" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -266,17 +252,10 @@
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
               <item name="split_1W" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Statistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Statistics" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="split_big" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,7 +281,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.change">
+  <component name="RunManager" selected="Python.90">
+    <configuration name="90" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/90/province_90" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Statistics" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/90/province_90/90.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="change" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -375,38 +372,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/split_big" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Statistics" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/split_big/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.split_100w" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.change" />
-      <item index="3" class="java.lang.String" itemvalue="Python.province" />
-      <item index="4" class="java.lang.String" itemvalue="Python.city" />
+      <item index="1" class="java.lang.String" itemvalue="Python.change" />
+      <item index="2" class="java.lang.String" itemvalue="Python.province" />
+      <item index="3" class="java.lang.String" itemvalue="Python.city" />
+      <item index="4" class="java.lang.String" itemvalue="Python.90" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.change" />
-        <item index="1" class="java.lang.String" itemvalue="Python.city" />
-        <item index="2" class="java.lang.String" itemvalue="Python.province" />
-        <item index="3" class="java.lang.String" itemvalue="Python.split_100w" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.90" />
+        <item index="1" class="java.lang.String" itemvalue="Python.change" />
+        <item index="2" class="java.lang.String" itemvalue="Python.city" />
+        <item index="3" class="java.lang.String" itemvalue="Python.province" />
+        <item index="4" class="java.lang.String" itemvalue="Python.split_100w" />
       </list>
     </recent_temporary>
   </component>
@@ -424,16 +403,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1440" height="877" extended-state="0" />
+    <frame x="-1" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2160229" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21888413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46035805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46035805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -461,22 +440,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10604">
-          <caret line="482" column="30" lean-forward="false" selection-start-line="482" selection-start-column="30" selection-end-line="482" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/city/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1276">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <marker date="1517547090403" expanded="true" signature="958:1018" ph="select * fro... people" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -515,10 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <marker date="1517934129777" expanded="true" signature="1165:1225" ph="select * fro... people" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -534,10 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1276">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <marker date="1517547090403" expanded="true" signature="958:1018" ph="select * fro... people" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,38 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/90/all_90/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/90/all_90/all_90.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#36#0" expanded="false" />
-            <marker date="1517554422301" expanded="true" signature="842:904" ph="select _c0,_... " />
-            <marker date="1517554422301" expanded="true" signature="842:907" ph="select * fro... people" />
-            <marker date="1517554422301" expanded="true" signature="842:992" ph="select _c0,_... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/90/province_90/90.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="58" column="11" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#36#0" expanded="false" />
-            <marker date="1517554380219" expanded="true" signature="1026:1047" ph="select * fro... people" />
-            <marker date="1517554380219" expanded="true" signature="1026:1141" ph="select * fro... people" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda/envs/xjmweb/lib/python3.6/site-packages/pyspark/sql/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -668,10 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <marker date="1517547090403" expanded="true" signature="958:1018" ph="select * fro... people" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -679,16 +602,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1254">
           <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <marker date="1517934129777" expanded="true" signature="1165:1225" ph="select * fro... people" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/province/data.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2458">
+        <state relative-caret-position="31372">
           <caret line="1426" column="0" lean-forward="false" selection-start-line="1426" selection-start-column="0" selection-end-line="1426" selection-end-column="0" />
           <folding />
         </state>
@@ -704,11 +623,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/split_1W/split.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
+        <state relative-caret-position="814">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/province/province.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+            <marker date="1517974000020" expanded="true" signature="797:832" ph="select * fro... people" />
+            <marker date="1517974000020" expanded="true" signature="797:833" ph="select * fro... people" />
+            <marker date="1517974000020" expanded="true" signature="797:837" ph="select * fro... people" />
+            <marker date="1517974000020" expanded="true" signature="797:857" ph="select * fro... people" />
+            <marker date="1517974000020" expanded="true" signature="797:859" ph="select * fro... people" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/split_big/split_100w.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.2/python_stubs/-938990493/builtins.py" />
+    <entry file="file://$PROJECT_DIR$/change_filename/change.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="116" column="4" lean-forward="false" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1517990778498" expanded="true" signature="1007:1063" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/90/all_90/all_90.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+          <folding>
+            <marker date="1517554422301" expanded="true" signature="842:904" ph="select _c0,_... " />
+            <marker date="1517554422301" expanded="true" signature="842:907" ph="select * fro... people" />
+            <marker date="1517554422301" expanded="true" signature="842:992" ph="select _c0,_... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/change_filename/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -728,40 +704,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/province/province.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <marker date="1517974000020" expanded="true" signature="797:832" ph="select * fro... people" />
-            <marker date="1517974000020" expanded="true" signature="797:833" ph="select * fro... people" />
-            <marker date="1517974000020" expanded="true" signature="797:837" ph="select * fro... people" />
-            <marker date="1517974000020" expanded="true" signature="797:857" ph="select * fro... people" />
-            <marker date="1517974000020" expanded="true" signature="797:859" ph="select * fro... people" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/split_big/split_100w.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.2/python_stubs/-938990493/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="835" column="8" lean-forward="false" selection-start-line="835" selection-start-column="8" selection-end-line="835" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/change_filename/data.txt">
+    <entry file="file://$PROJECT_DIR$/90/all_90/data.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -769,14 +712,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/change_filename/change.py">
+    <entry file="file://$PROJECT_DIR$/90/province_90/90.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="116" column="4" lean-forward="false" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
+        <state relative-caret-position="1144">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <marker date="1517990778498" expanded="true" signature="1007:1063" ph="..." />
+            <marker date="1518499305607" expanded="true" signature="1026:1047" ph="select * fro... people" />
+            <marker date="1518499305607" expanded="true" signature="1026:1099" ph="select * fro... people" />
+            <marker date="1518499305607" expanded="true" signature="1026:1100" ph="select * fro... people" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/90/province_90/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

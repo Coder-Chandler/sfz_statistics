@@ -38,7 +38,7 @@ def savedata(filename, province):
             df = dataframe(filename[i])
             df.createOrReplaceTempView("people")
             search = "%{}%".format(str(province[j]))
-            sql = "select * from people where _c8 like '{}' and _c7 > 19850101 and _c6 = 'F' and _c2<9999999999 and _c1>10000000000000".format(
+            sql = "select * from people where _c8 like '{}' and _c7 > 19850101 and _c6 = 'F' ".format(
                 search)
             data = spark.sql(str(sql))
             log(str(i) + "有" + str(data.count()) + "条是{}的数据 ->".format(province[j]), data.count())
