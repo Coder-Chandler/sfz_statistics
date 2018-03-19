@@ -7,7 +7,7 @@ spark = SparkSession \
     .config("spark.sql.parquet.compression.codec", "gzip") \
     .master("local[2]") \
     .getOrCreate()
-
+#
 path = "/Users/chandler/Documents/Data/NumPhone/sales/10W/10W_.csv"
 df = spark.read.format("csv").load(path)
 
